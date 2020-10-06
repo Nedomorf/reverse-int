@@ -1,5 +1,5 @@
 module.exports = function reverse (n) {
-    n = String(n);
+    n = String(Math.abs(n));
     n = n.split('');
     let sub = [];
     let res = '';
